@@ -1,0 +1,24 @@
+# Project 5: Secure Linux Server Permissions
+
+## Objective
+
+The goal of this project was to apply user\-based access restrictions using Linux users, groups, and permissions.
+
+## Tasks Performed
+
+- Created a group named **developers**.
+- Created two users, **john** and **mary**.
+- Added **john** to the developers group.
+- Created a secure directory called **/secure\-data**.
+- Assigned the directory to the developers group.
+- Applied **770** permissions to restrict access.
+
+## Access Testing
+
+- **john** was able to access the **/secure\-data** directory because john is a member of the developers group.
+- **mary** was denied access because mary is not a member of the developers group.
+
+## Result
+
+The project successfully implemented Linux access control by allowing authorized users to access protected resources while preventing unauthorized users from accessing them.
+
